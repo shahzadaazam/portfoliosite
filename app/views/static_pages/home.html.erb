@@ -2,7 +2,12 @@
 
   <h1 class="cover-heading"> Hello world.</h1>
   <h2 class="lead">
-    My name is Shahzada Azam Shahani. I'm a <%= @x %>
+    My name is Shahzada Azam Shahani. I'm a Software Developer and Maker of Things.
   </h2>
-  <!-- <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %> -->
+  <div class="text-center logoswrapper">
+    <%= link_to 'https://github.com/shahzadaazam' do %>
+      <%= image_tag ( "github.png" ), width: '45' %>
+    <% end %>
+  </div>
+  <center><%= mail_to "shahzadaazam@mail.usf.edu", "Get in Touch", class: "btn btn-lg btn-primary" %></center>
 </div>
